@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Weather App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <h1>Weather Forecast</h1>
+      <p class="subtitle">Search any city and get the current weather and 3-day forecast</p>
+    </header>
+
+    <section class="search">
+      <input id="cityInput" type="search" placeholder="Enter city (e.g. London)" aria-label="City name" />
+      <button id="searchBtn">Search</button>
+    </section>
+
+    <section id="status" class="status" aria-live="polite"></section>
+
+    <section id="weather" class="weather hidden">
+      <div class="current">
+        <h2 id="location"></h2>
+        <div class="temp-row">
+          <div id="temperature" class="temperature"></div>
+          <div id="condition" class="condition"></div>
+        </div>
+        <div class="meta">
+          <div id="wind"></div>
+          <div id="humidity"></div>
+        </div>
+      </div>
+
+      <div class="forecast">
+        <h3>3-day forecast</h3>
+        <div id="forecastCards" class="cards"></div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <small>Data from OpenWeather API</small>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
