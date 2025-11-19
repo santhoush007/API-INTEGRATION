@@ -10,6 +10,8 @@ DURATION : 6 WEEKS
 
 MENTOR : NEELA SANTOSH
 
+##TASK 1
+
 # API INTEGRATION
 
 # 🌐 API Data Fetching Webpage
@@ -76,3 +78,4 @@ Build responsive frontend applications
 
 # Output:
 
+<img width="1595" height="864" alt="Image" src="https://github.com/user-attachments/assets/8455e306-2037-44a3-b73a-d70407aa83eb" />
